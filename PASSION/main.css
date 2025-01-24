@@ -1,11 +1,17 @@
 body {
-    background-color:antiquewhite;
+    background-image: url("grain.jpg");
+    background-size: 1000px;
     font-family:helvetica;
     text-align:center;
+    @font-face {
+        font-family: "scotch";
+        src: url("scotch-display.woff2");
+    }
+    font-family: scotch;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 72px;
     column-span: all;
     line-height: 15px;
 }

@@ -1,3 +1,43 @@
 body {
     background-color: rgb(200, 200, 255);
+    background-image: url("caroline-polechek.jpg");
+    background-size: 300px;
+    text-align: center;
+    color: red;
+    @font-face {
+        font-family: "resistance";
+        src: url("resistance.otf");
+    }
+    font-family: resistance;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+h1 {
+    font-size: 120px;
+    line-height: 0.8;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 0.9;
+    margin-bottom: 2px;
+}
+
+p {
+    font-size: 60px;
+    margin-bottom: 2px;
+}
+
+a {
+    font-size: 48px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: red
 }
