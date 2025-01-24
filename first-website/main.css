@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(255, 227, 243);
+    font-family: helvetica;
+    font-size: 25px;
+    text-align: center;
+}
+
+h2 {
+    color:magenta;
+    font-size: 80px;
+}
+
+p {
+    color: blue; 
+    font-family: helvetica;
+    background-color: rgb(255, 227, 243);
+    border: 80px dotted black;
+    padding: 300px;
+}
+
+.special {
+    background-color:rgba(127, 81, 81, 0.229);
+}
+
+img {
+    width: 31%
+}
