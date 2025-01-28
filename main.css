@@ -6,7 +6,7 @@ body {
     color: red;
     @font-face {
         font-family: "resistance";
-        src: url("resistance.otf");
+        src: url("resistance.woff2");
     }
     font-family: resistance;
     -webkit-text-stroke-color: black;

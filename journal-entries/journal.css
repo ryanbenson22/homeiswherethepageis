@@ -1,0 +1,17 @@
+body {
+    @font-face {
+        font-family: "scotch";
+        src: url("journal-entries/scotch-display.woff2");
+    }
+    font-family: scotch;
+}
+
+div {
+    column-count: 2;
+    column-gap: 1px;
+  }
+
+  .newspaper1 {
+    column-fill: auto;
+}
+

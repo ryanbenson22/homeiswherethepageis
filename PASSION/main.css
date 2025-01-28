@@ -1,7 +1,6 @@
 body {
     background-image: url("grain.jpg");
     background-size: 1000px;
-    font-family:helvetica;
     text-align:center;
     @font-face {
         font-family: "scotch";
@@ -31,14 +30,15 @@ h3 {
 div {
     column-count: 3;
     column-gap: 1px;
+    height: 4000px;
   }
 
 .newspaper1 {
-    column-fill: balance;
+    column-fill: auto;
 }
 
 figure {
-    column-fill: balance;
+    column-fill: auto;
 }
 
 figcaption {
