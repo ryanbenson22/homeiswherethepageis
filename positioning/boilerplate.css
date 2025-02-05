@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+    font-family: helvetica;
+    text-align: center;
+}
+
+img {
+    max-width: 100%
+}
+
+.block {
+    background-color: rgb(194, 194, 194);
+    border:1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inline {
+    background-color: rgb(230, 230, 230);
+    border:1px solid black;
+    /* inline elements don't work well with padding, margin, width, or height */
+    padding: 10px;
+    margin: 10px;
+}
+
+.inline-block {
+    background-color: rgb(230, 230, 230);
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    background-color: rgb(194, 194, 194);
+    border:1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.content-box{
+    background-color: rgb(194, 194, 194);
+    border: 1px solid black;
+    padding: 50px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    box-sizing:content-box
+}
+
+.border-box {
+    background-color: rgb(194, 194, 194);
+    border: 1px solid black;
+    padding: 50px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    box-sizing:border-box
+}
+
+.smiley {
+    background-color: rgb(255, 225, 0);
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    position:relative;
+    left: 10px;
+}
+
+.smile {
+    background-color:rgb(194, 194, 194);
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+
+.fixed {
+    background-color: rgb(107, 0, 0);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    position:fixed;
+    top:0;
+    color: white;
+}
+
+.sticky {
+    background-color:rgb(194, 194, 194);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    position:sticky;
+    top:0;
+}

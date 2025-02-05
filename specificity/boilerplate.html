@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>SPECIFICITY</title>
+<link rel="stylesheet" href="boilerplate.css">
+<style>
+    /* embedded styles are more specific than external styles */
+    div {
+        background:lightpink;
+    }
+</style>
+    </head>
+    <body>
+<div style="background:lightblue;">Application Specificity</div>
+
+<main class="class" id="id" style="background-color:rgb(116, 255, 255);">
+    Identifier Specifity
+</main>
+
+<footer>Location Specificity</footer>
+
+
+    </body>
+</html>

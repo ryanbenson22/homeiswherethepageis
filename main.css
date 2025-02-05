@@ -3,18 +3,19 @@ body {
     background-image: url("caroline-polechek.jpg");
     background-size: 480px;
     text-align: center;
-    color: rgb(233, 0, 0);
-    @font-face {
+    color: rgb(145, 255, 0);
+    /* @font-face {
         font-family: "resistance";
         src: url("resistance.woff2");
     }
-    font-family: resistance;
-    -webkit-text-stroke-color: black;
+    font-family: resistance; */
+    font-family: helvetica;
+    -webkit-text-stroke-color: rgb(145, 255, 0);
     -webkit-text-stroke-width: 1px;
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 144px;
     line-height: 0.8;
     margin-bottom: 2px;
     letter-spacing: -10px;
@@ -35,12 +36,22 @@ p {
 
 a {
     font-size: 60px;
+    -webkit-text-stroke-color: #91ff00;
+    -webkit-text-stroke-width: 0.5px;
+    letter-spacing: -1.5px;
 }
 
 a:link {
-    color: rgb(233, 0, 0);
+    color: rgb(145, 255, 0);
 }
 
 a:visited {
-    color: rgb(233, 0, 0);
+    color: rgb(145, 255, 0);
+}
+
+audio-player {
+    position:relative;
+    width: 40px;
+    background-color: black;
+   mix-blend-mode:color-dodge;
 }

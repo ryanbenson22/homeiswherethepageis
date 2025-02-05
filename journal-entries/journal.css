@@ -23,6 +23,7 @@ h1 {
     -webkit-text-stroke-width: 4px;
     letter-spacing: -20px;
     mix-blend-mode:color-dodge;
+    margin-top: 80px;
 }
 
 h3 {

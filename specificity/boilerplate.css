@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(240, 163, 232);
+    font-family: helvetica;
+}
+
+img {
+    max-width: 100%
+}
+/* external styles are the least specific application */
+div {
+    margin: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+    background: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+.class {
+    background-color: chartreuse;
+}
+
+#id {
+    background-color:darkred;
+}
+
+footer {
+    margin: 20px;
+    background: ivory;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(0, 255, 255);
+}
