@@ -1,0 +1,52 @@
+body {
+    background-color: ivory;
+    text-align:center;
+    @font-face {
+        font-family: "optiyale";
+        src: url("PASSION-2/OPTIYale Script Regular.otf");
+    }
+    font-family: helvetica;
+}
+
+h1 {
+    font-size: 96px;
+    line-height: 10px;
+    color: rgb(127, 151, 179);
+    font-family: optiyale;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 15px;
+    color: rgb(127, 151, 179);
+}
+
+h3 {
+    font-size: 12px;
+    line-height: 15px;
+    color: rgb(127, 151, 179);
+}
+
+figcaption {
+    font-size: 48px;
+    color: rgb(127, 151, 179);
+    font-family: optiyale;
+}
+
+p {
+    font-size:  12px;
+    color: rgb(127, 151, 179);
+}
+
+img {
+    border: 5px solid rgb(55, 71, 89);
+    width: 450px;
+}
+
+a:link {
+    color:rgb(127, 151, 179);
+}
+
+a:visited {
+    color: rgb(127, 151, 179);
+}
