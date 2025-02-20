@@ -36,7 +36,7 @@ body {
     width: 198px;
     top: 60px;
     left: 600px;
-    border: 8px solid black;
+    border: 8px solid rgb(143, 109, 21);
     justify-self: center;
     display: inline;
 }
@@ -101,7 +101,7 @@ body {
     display: inline;
 }
 
-#lorde {
+#beatty {
     height: 198px;
     width: 198px;
     display: inline;
@@ -114,6 +114,14 @@ body {
     left: 30x;
     top: -30px;
     display: inline;
+}
+
+#book {
+    width: 150px;
+    position: relative;
+    z-index: 1;
+    display: inline;
+    left: -445px;
 }
 
 span {

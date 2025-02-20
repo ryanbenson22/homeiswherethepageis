@@ -65,6 +65,12 @@ body {
     height: 115px;
 }
 
+#eusexua {
+    height: 198px;
+    width: 198px;
+    display: inline;
+}
+
 span {
     font-size: 72px;
 }
@@ -75,4 +81,57 @@ a:link {
 
 a:visited {
     color: white;
+}
+
+#baggu {
+    width: 350px;
+    position: relative;
+    z-index: 1;
+    left:405px;
+    top: -75px;
+    display: inline;
+}
+
+#journal {
+    width: 200px;
+    position: relative;
+    z-index: 1;
+    top: -20px;
+    display: inline;
+}
+
+#matcha {
+    width: 250px;
+    position: relative;
+    z-index: 1;
+    left: -35px;
+    top: -55px;
+    display: inline;
+}
+
+#sandwich {
+    width: 250px;
+    position: relative;
+    z-index: 1;
+    left: -75px;
+    top: 0px;
+    display: inline;
+}
+
+#laptop {
+    width: 275px;
+    position: relative;
+    z-index: 1;
+    right: 30px;
+    top: -40px;
+    display: inline;
+}
+
+#candle {
+    width: 300px;
+    position: relative;
+    z-index: 1;
+    right: -100px;
+    top: -250px;
+    display: inline;
 }

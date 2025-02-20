@@ -1,5 +1,5 @@
 body {
-    background: rgb(243, 237, 191);
+    background: rgb(210, 204, 160);
 }
 
 .items {
@@ -36,13 +36,13 @@ body {
     width: 198px;
     top: 60px;
     left: 600px;
-    border: 8px solid black;
+    border: 8px solid rgb(118, 0, 0);
     justify-self: center;
     display: inline;
 }
 
 #table {
-    background-color: rgb(77, 37, 9);
+    background-color: rgb(51, 25, 6);
     width: 1000px;
     height: 265px;
     left: 250px;
@@ -50,7 +50,7 @@ body {
 }
 
 #leg-left {
-    background-color: rgb(49, 24, 6);
+    background-color: rgb(37, 18, 5);
     left: 250px;
     top: 665px;
     width: 36px;
@@ -58,11 +58,17 @@ body {
 }
 
 #leg-right {
-    background-color: rgb(49, 24, 6);
+    background-color: rgb(37, 18, 5);
     left: 1214px;
     top: 665px;
     width: 36px;
     height: 115px;
+}
+
+#eternal {
+    height: 198px;
+    width: 198px;
+    display: inline;
 }
 
 span {
@@ -75,4 +81,57 @@ a:link {
 
 a:visited {
     color: white;
+}
+
+#baggu {
+    width: 350px;
+    position: relative;
+    z-index: 1;
+    left:405px;
+    top: -75px;
+    display: inline;
+}
+
+#iphone {
+    width: 150px;
+    position: relative;
+    z-index: 1;
+    top: 10px;
+    display: inline;
+}
+
+#water {
+    width: 250px;
+    position: relative;
+    z-index: 1;
+    left: -35px;
+    top: -55px;
+    display: inline;
+}
+
+#pasta {
+    width: 200px;
+    position: relative;
+    z-index: 1;
+    left: -75px;
+    top: 0px;
+    display: inline;
+}
+
+#paper {
+    width: 275px;
+    position: relative;
+    z-index: 1;
+    right: 30px;
+    top: 40px;
+    display: inline;
+}
+
+#little-mix {
+    width: 200px;
+    position: relative;
+    z-index: 1;
+    right: -140px;
+    top: -185px;
+    display: inline;
 }
