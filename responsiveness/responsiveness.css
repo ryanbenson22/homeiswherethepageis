@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+} 
+
+body {
+background-color: lightgray;
+font-family: helvetica;
+}
+
+img {
+    max-width: 100%
+}
+
+.container {
+    background-color: white;
+    max-width: 900px; 
+}
+
+@media screen and (min-width: 600px) {
+    body {
+      background-color: blue;
+      font-size: 200%;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    body {
+      background-color: rgb(158, 158, 0);
+    }
+  }
