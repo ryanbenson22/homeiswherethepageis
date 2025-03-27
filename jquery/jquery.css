@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    transition: background .5s;
+}
+
+body.dark {
+    background:darkgrey
+}
+
+.buttons {
+    position: fixed;
+    top:10px;
+    left:10px;
+}
+
+img {
+    max-width: 100%
+}
+
+.main {
+    background-color: white;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.square {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    transition: background .5s;
+    animation: spin 3s linear infinite;
+    animation-play-state: paused;
+}
+
+.square.dark {
+    background: rgb(175, 101, 114);
+}
+
+.square.spin {
+    animation-play-state: running;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        }
+}
+
+.cher {
+    width: 400px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display:none;
+}
+
+.cher.reveal {
+    display: block;
+}
